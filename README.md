@@ -32,4 +32,4 @@ Zum Ausführen des Tools mit der graphischen Benutzeroberfläche genügt es, die
 
 Beide Toolvarianten generieren im aktuellen Verzeichnis jeweils eine Datei namens `[White/Black]list_zeitstempel.txt`, wobei der Zeitstempel eine große Zahl stellvertretend für die aktuelle Zeit zum Zeitpunkt des Generierens repräsentiert. Das folgende Diagramm fasst die Logik der Programme zusammen:
 
-![Ablauf](./src/files/Programmablaufplan%20des%20Tools.emf)
+![Ablauf](./src/files/Programmablaufplan%20des%20Tools.jpg)
