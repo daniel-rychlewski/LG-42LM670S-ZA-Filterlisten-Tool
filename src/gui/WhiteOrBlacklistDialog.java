@@ -3,19 +3,19 @@ package gui;
 import javax.swing.*;
 import java.awt.*;
 
-public class WhiteOderBlacklistDialog {
+public class WhiteOrBlacklistDialog {
     private JPanel panel1;
     private JButton blacklistButton;
     private JButton whitelistButton;
 
-    WhiteOderBlacklistDialog() {
+    WhiteOrBlacklistDialog() {
         blacklistButton.addActionListener(e -> BlacklistGeneratorDialog.main());
         whitelistButton.addActionListener(e -> WhitelistGeneratorDialog.main());
     }
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("WhiteOrBlacklistDialog");
-        frame.setContentPane(new WhiteOderBlacklistDialog().panel1);
+        frame.setContentPane(new WhiteOrBlacklistDialog().panel1);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
