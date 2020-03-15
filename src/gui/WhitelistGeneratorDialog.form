@@ -30,7 +30,7 @@
                 </constraints>
                 <properties>
                   <enabled value="true"/>
-                  <text value="Online-Dienste von LG sollen weiterhin auf dem Smart-TV funktionieren."/>
+                  <text resource-bundle="gui/resources" key="allowOnlineServices"/>
                 </properties>
               </component>
               <component id="7e97a" class="javax.swing.JCheckBox" binding="iconsImLGAppCheckBox" default-binding="true">
@@ -38,7 +38,7 @@
                   <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Icons im LG App Store sollen weiterhin angezeigt werden können."/>
+                  <text resource-bundle="gui/resources" key="allowAppStoreIcons"/>
                 </properties>
               </component>
               <component id="accf7" class="javax.swing.JCheckBox" binding="dieAppTagesschauSollCheckBox" default-binding="true">
@@ -46,7 +46,7 @@
                   <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Die App &quot;Tagesschau&quot; soll weiterhin funktionieren."/>
+                  <text resource-bundle="gui/resources" key="allowTagesschau"/>
                 </properties>
               </component>
               <component id="6742c" class="javax.swing.JCheckBox" binding="dieAppAmazonInstantCheckBox" default-binding="true">
@@ -54,7 +54,7 @@
                   <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Die App &quot;Amazon Instant Video&quot; soll weiterhin funktionieren."/>
+                  <text resource-bundle="gui/resources" key="allowAmazonInstantVideo"/>
                 </properties>
               </component>
               <component id="e7412" class="javax.swing.JCheckBox" binding="dieAppMKIPTVCheckBox" default-binding="true">
@@ -62,7 +62,7 @@
                   <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Die App &quot;MK IPTV&quot; soll weiterhin funktionieren."/>
+                  <text resource-bundle="gui/resources" key="allowMKIPTV"/>
                 </properties>
               </component>
               <component id="d7420" class="javax.swing.JCheckBox" binding="dieAppYouTubeSollCheckBox" default-binding="true">
@@ -70,7 +70,7 @@
                   <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Die App &quot;YouTube&quot; soll weiterhin funktionieren."/>
+                  <text resource-bundle="gui/resources" key="allowYouTube"/>
                 </properties>
               </component>
               <component id="467ff" class="javax.swing.JLabel">
@@ -78,7 +78,7 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Bitte klicken Sie auf die jeweilige Checkbox, um die rechts daneben beschriebene Funktionalität zuzulassen."/>
+                  <text resource-bundle="gui/resources" key="clickToAllow"/>
                 </properties>
               </component>
               <component id="159b" class="javax.swing.JLabel">
@@ -86,7 +86,7 @@
                   <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <text value="Klicken Sie im Anschluss auf den Button, um Ihre Whitelist generieren zu lassen:"/>
+                  <text resource-bundle="gui/resources" key="thenClickButtonWhitelist"/>
                 </properties>
               </component>
             </children>
@@ -98,7 +98,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Whitelist jetzt generieren lassen"/>
+          <text resource-bundle="gui/resources" key="generateWhitelist"/>
         </properties>
       </component>
     </children>

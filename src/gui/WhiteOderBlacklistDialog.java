@@ -2,8 +2,6 @@ package gui;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class WhiteOderBlacklistDialog {
     private JPanel panel1;
@@ -16,7 +14,7 @@ public class WhiteOderBlacklistDialog {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("WhiteOderBlacklistDialog");
+        JFrame frame = new JFrame("WhiteOrBlacklistDialog");
         frame.setContentPane(new WhiteOderBlacklistDialog().panel1);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
