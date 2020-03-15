@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 // Das Tool generiert je nach Eingabe im selben Verzeichnis eine Black- oder Whitelist fuer einen LG Smart TV. Es wurde am Smart TV 42LM670S-ZA mit der Firmware-Version 04.62.12 getestet.
-public class Generator {
+public class Generator_de {
 	
 	/* Der Scanner liest die Eingaben des Nutzers in der Kommandozeile. Bei einem "j" erfolgt der Eintrag in die Datei und bei einem "n" nicht.
 	 * Sonstige Eingaben zaehlen als unerwartet und sorgen dafuer, dass das Programm beendet wird. */
@@ -18,7 +18,7 @@ public class Generator {
 	 * @param args Zu diesem Zweck irrelevante Kommandozeilenparameter
 	 */
 	public static void main(String[] args) {
-		Generator generator = new Generator();
+		Generator_de generator = new Generator_de();
 		generator.starteTool();
 		
 		String ersteEingabe = generator.scanner.next();
